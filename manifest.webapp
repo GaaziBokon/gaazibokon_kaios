@@ -1,0 +1,15 @@
+{
+  "version": "0.0.0.0",
+  "name": "GaaziBokon KaiOS",
+  "description": "GaaziBokon app for KaiOS",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Farooq Karimi Zadeh",
+    "url": "https://github.com/GaaziBokon/gaazibokon_kaios"
+  },
+  "type": "privileged",
+  "permissions": {
+    "tcp-socket": "To communicate with GaaziBokon server",
+    "udp-socket": "To retrieve GaaziBokon server address"
+  }
+}

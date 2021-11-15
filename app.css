@@ -1,0 +1,18 @@
+#root { 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+#ping {
+  flex-grow: 1;
+}
+
+#layout {
+  flex-grow: 20;
+}
+
+#log {
+  flex-grow: 4;
+}
