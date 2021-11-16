@@ -119,6 +119,7 @@ window.onload = document.onload = () => {
     }, 200);
   };
   socket.ondata = (e) => {
+    if (!e.data.includes("pong")) return;
     ping.innerText = (new Date() - window.pingTime).toString() + "ms";
   };
 };
